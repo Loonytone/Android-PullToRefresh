@@ -278,6 +278,11 @@ namespace Com.Loonytone.Droid.PullToRefresh
             {
                 if (!IsRefreshing)
                 {
+                    //保证从开始处刷新。
+                    if (mCurrentMode != PullMode.PULL_FROM_START)
+                    {
+                        mCurrentMode = PullMode.PULL_FROM_START;
+                    }                    
                     SetState(RefreshState.MANUAL_REFRESHING, value);
                 }
             }

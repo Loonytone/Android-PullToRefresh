@@ -260,18 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 
-/BannerTest
-/BottomNavigationTest_AllMode.7z
-/BottomNavigationTest_WithFragment.7z
-/Com.Loonytone.Android.Layouts
-/Com.Loonytone.Droid.RollViewPager
-/Components
-/Old
-/packages
-/RollViewPagerTest
-/Sharp.SmartTabLayout
-/Sharp.SmartTabLayout.Utils
-/SmartTabLayoutTest
-/SwipeRefresh
-/ZXing.Scanner
 
